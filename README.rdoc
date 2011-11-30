@@ -1,11 +1,12 @@
 = Sash
 
-Sash computes a 64bit hash using sdbm hash function and outputs a compact string representation.
+Sash computes a 64bit hash using sdbm or djb2 hash function and outputs a compact string representation.
 
 == Example
 
     require 'sash'
     Sash.base64 "hi, this is sash - so how was your day ?" #=> "ixeLC8U8SC"
+    Sash.base64 "hi, this is sash - so how was your day ?", method: Sash::METHOD_DJB2) #=> "HI6K0nlcyH9"
 
 = License
 
