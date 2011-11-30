@@ -1,0 +1,11 @@
+pkg/*
+tmp/*
+!pkg/.keepthis
+!tmp/.keepthis
+ext/*
+!ext/extconf.rb
+!ext/*.c
+!ext/*.h
+ext/*.so
+*.gem
+test.rb

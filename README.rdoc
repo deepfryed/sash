@@ -1,0 +1,12 @@
+= Sash
+
+Sash computes a 64bit hash using sdbm hash function and outputs a compact string representation.
+
+== Example
+
+    require 'sash'
+    Sash.base64 "hi, this is sash - so how was your day ?" #=> "ixeLC8U8SC"
+
+= License
+
+{CC BY-SA 3.0}[http://creativecommons.org/licenses/by-sa/3.0/]
